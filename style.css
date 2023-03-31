@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.advice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(217, 19%, 24%);
+  margin: 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 400px;
+}
+.advice-id{
+  color: #1cc986;
+  letter-spacing: 4px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.frase{
+  color: #fff;
+  margin: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+.barra{
+  text-align: center;
+  margin-top: 15px;
+}
+.geradordefrase{
+  background-color: #1cc986;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  transform: translateY(50%);
+
+}
+
+.advice .geradordefrase:hover{
+  cursor: pointer;
+  box-shadow: 0 5px 15px #1cc986;
+}
+
